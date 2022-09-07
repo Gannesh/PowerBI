@@ -1,0 +1,22 @@
+{
+  "name": "Dates",
+  "partitions": [
+    {
+      "name": "Dates-47f470aa-3413-4db0-8f4d-a49ec409905a",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

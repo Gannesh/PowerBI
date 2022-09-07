@@ -1,0 +1,67 @@
+{
+  "name": "Retail Analysis",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "en-PH",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-PH",
+    "relationships": [
+      {
+        "name": "f2aecc09-0c71-49ea-9b3a-6136af0ed7df",
+        "fromTable": "Dates",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_c8af7597-f699-414f-969c-04fdef2e28ea",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "4ece1e72-d6ec-47df-8bfb-d1a8e83d6522",
+        "fromTable": "Sales",
+        "fromColumn": "Category",
+        "toTable": "Buyers",
+        "toColumn": "Category"
+      },
+      {
+        "name": "212226b0-ddef-4a5d-a067-a9e4d6191f13",
+        "fromCardinality": "one",
+        "fromTable": "Regions",
+        "fromColumn": "Suburb",
+        "toTable": "Managers",
+        "toColumn": "Suburb",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "29b44b7f-19a0-4faf-b581-9e6384dbaa09",
+        "fromTable": "Sales",
+        "fromColumn": "Postcode",
+        "toTable": "Managers",
+        "toColumn": "Postcode"
+      },
+      {
+        "name": "902368b8-5783-4294-94a4-f31863092f56",
+        "fromTable": "Sales",
+        "fromColumn": "Date",
+        "toTable": "Dates",
+        "toColumn": "Date"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.108.997.0 (22.08)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Buyers\",\"Dates\",\"Managers\",\"Sales\",\"Regions\"]"
+      }
+    ]
+  }
+}

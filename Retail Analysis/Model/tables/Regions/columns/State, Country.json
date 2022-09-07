@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "State, Country",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "dataCategory": "Place",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

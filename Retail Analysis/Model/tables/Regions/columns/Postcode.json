@@ -1,0 +1,14 @@
+{
+  "name": "Postcode",
+  "dataType": "int64",
+  "sourceColumn": "Postcode",
+  "formatString": "0",
+  "dataCategory": "PostalCode",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    }
+  ]
+}

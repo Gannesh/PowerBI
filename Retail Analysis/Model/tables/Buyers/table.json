@@ -1,0 +1,22 @@
+{
+  "name": "Buyers",
+  "partitions": [
+    {
+      "name": "Buyers-e66995b3-1289-464e-88cc-0d739522b8a6",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

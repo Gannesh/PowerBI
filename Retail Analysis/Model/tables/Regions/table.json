@@ -1,0 +1,22 @@
+{
+  "name": "Regions",
+  "partitions": [
+    {
+      "name": "Regions-23337b1a-8787-4287-8169-e8f5f700c395",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

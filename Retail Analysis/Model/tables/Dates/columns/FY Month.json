@@ -1,0 +1,13 @@
+{
+  "name": "FY Month",
+  "dataType": "int64",
+  "sourceColumn": "FY Month",
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    }
+  ]
+}

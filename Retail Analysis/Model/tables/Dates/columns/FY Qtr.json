@@ -1,0 +1,12 @@
+{
+  "name": "FY Qtr",
+  "dataType": "string",
+  "sourceColumn": "FY Qtr",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

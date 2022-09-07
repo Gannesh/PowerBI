@@ -1,0 +1,92 @@
+{
+  "name": "3fddcedf0c3e691ad757",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 980.19120458891018,
+        "y": 0,
+        "z": 1000,
+        "width": 300.11472275334609,
+        "height": 300.11472275334609
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "map",
+    "projections": {
+      "Size": [
+        {
+          "queryRef": "Sum(Sales.Sales)"
+        }
+      ],
+      "Series": [
+        {
+          "queryRef": "Sales.Chain"
+        }
+      ],
+      "Category": [
+        {
+          "queryRef": "Regions.Postcode, Suburb, Country",
+          "active": true
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "s",
+          "Entity": "Sales",
+          "Type": 0
+        },
+        {
+          "Name": "r",
+          "Entity": "Regions",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "s"
+                  }
+                },
+                "Property": "Sales"
+              }
+            },
+            "Function": 0
+          },
+          "Name": "Sum(Sales.Sales)"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "s"
+              }
+            },
+            "Property": "Chain"
+          },
+          "Name": "Sales.Chain"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "r"
+              }
+            },
+            "Property": "Postcode, Suburb, State, Country"
+          },
+          "Name": "Regions.Postcode, Suburb, Country"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

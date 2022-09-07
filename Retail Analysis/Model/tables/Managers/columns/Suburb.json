@@ -1,0 +1,12 @@
+{
+  "name": "Suburb",
+  "dataType": "string",
+  "sourceColumn": "Suburb",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

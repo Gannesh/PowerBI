@@ -1,0 +1,46 @@
+{
+  "id": 0,
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "ReportSection",
+      "config": "{}",
+      "name": "Pod"
+    },
+    {
+      "boundSection": "ReportSectiona06f7c512020ca4e9bb0",
+      "config": "{}",
+      "name": "Pod1"
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY19SU06",
+            "path": "BaseThemes/CY19SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "PBI_CV_25997FEB_F466_44FA_B562_AC4063283C4C.pbiviz.json",
+            "path": "PBI_CV_25997FEB_F466_44FA_B562_AC4063283C4C.pbiviz.json",
+            "type": 5
+          }
+        ],
+        "name": "PBI_CV_25997FEB_F466_44FA_B562_AC4063283C4C",
+        "type": 0
+      }
+    }
+  ]
+}

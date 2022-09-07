@@ -1,0 +1,14 @@
+<LinguisticSchema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Language="en-US" DynamicImprovement="Default" xmlns="http://schemas.microsoft.com/sqlserver/2016/01/linguisticschema">
+  <Entities>
+    <Entity Source="Generated" ConceptualEntity="Pod" Name="Summary">
+      <Words>
+        <Word>Summary</Word>
+      </Words>
+    </Entity>
+    <Entity Source="Generated" ConceptualEntity="Pod1" Name="By_Region__Chain">
+      <Words>
+        <Word>By Region &amp; Chain</Word>
+      </Words>
+    </Entity>
+  </Entities>
+</LinguisticSchema>

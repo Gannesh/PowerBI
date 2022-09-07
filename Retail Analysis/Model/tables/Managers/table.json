@@ -1,0 +1,22 @@
+{
+  "name": "Managers",
+  "partitions": [
+    {
+      "name": "Managers-9f57409a-c080-4f5d-b59b-5dc8644b2c67",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

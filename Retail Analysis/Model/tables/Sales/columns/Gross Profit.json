@@ -1,0 +1,17 @@
+{
+  "name": "Gross Profit",
+  "dataType": "double",
+  "sourceColumn": "Gross Profit",
+  "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"currencyCulture\":\"en-US\"}"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "objects": {
+    "indicator": [
+      {
+        "properties": {
+          "indicatorDisplayUnits": {
+            "expr": {
+              "Literal": {
+                "Value": "1000000D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Indicator": [
+      0
+    ],
+    "TrendLine": [
+      1
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Sales",
+        "Name": "Sum(Sales.Sales)",
+        "Type": 1,
+        "Format": "\\$#,0;(\\$#,0);\\$#,0"
+      },
+      {
+        "Restatement": "Date",
+        "Name": "Dates.Date",
+        "Type": 4,
+        "Format": "D"
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Indicator",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "TrendLine",
+          "Projection": 1,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Sales",
+      "format": "\\$#,0;(\\$#,0);\\$#,0",
+      "queryName": "Sum(Sales.Sales)",
+      "roles": {
+        "Indicator": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 259
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "Sales"
+                }
+              },
+              "Property": "Sales"
+            }
+          },
+          "Function": 0
+        }
+      }
+    },
+    {
+      "displayName": "Date",
+      "format": "D",
+      "queryName": "Dates.Date",
+      "roles": {
+        "TrendLine": true
+      },
+      "sort": 1,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 519
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Dates"
+            }
+          },
+          "Property": "Date"
+        }
+      }
+    }
+  ]
+}
