@@ -1,6 +1,6 @@
 {
   "type": "calculated",
-  "name": "Profit",
+  "name": "ProfitX",
   "dataType": "double",
   "isDataTypeInferred": true,
   "summarizeBy": "sum",

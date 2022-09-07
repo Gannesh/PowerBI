@@ -23,47 +23,6 @@
         "Name": "Managers.Manager",
         "Type": 2048
       }
-    ],
-    "Filters": [
-      {
-        "type": 0,
-        "expression": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Buyers"
-              }
-            },
-            "Property": "Buyer"
-          }
-        }
-      },
-      {
-        "type": 0,
-        "expression": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Buyers"
-              }
-            },
-            "Property": "Category"
-          }
-        }
-      },
-      {
-        "type": 0,
-        "expression": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Managers"
-              }
-            },
-            "Property": "Manager Name"
-          }
-        }
-      }
     ]
   },
   "visualElements": [
