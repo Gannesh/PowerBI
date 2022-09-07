@@ -4,7 +4,6 @@
   "QueriesSettings": {
     "TypeDetectionEnabled": true,
     "RelationshipImportEnabled": true,
-    "RunBackgroundAnalysis": true,
     "Version": "2.74.5619.621"
   }
 }

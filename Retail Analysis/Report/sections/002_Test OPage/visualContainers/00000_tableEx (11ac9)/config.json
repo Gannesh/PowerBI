@@ -1,0 +1,82 @@
+{
+  "name": "11ac9b018c3626197e9c",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 10.616113744075829,
+        "y": 0,
+        "z": 0,
+        "width": 1157.1563981042652,
+        "height": 624.83412322274876
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "tableEx",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Buyers.Buyer"
+        },
+        {
+          "queryRef": "Buyers.Category"
+        },
+        {
+          "queryRef": "Managers.Manager"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "b",
+          "Entity": "Buyers",
+          "Type": 0
+        },
+        {
+          "Name": "m",
+          "Entity": "Managers",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "b"
+              }
+            },
+            "Property": "Buyer"
+          },
+          "Name": "Buyers.Buyer"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "b"
+              }
+            },
+            "Property": "Category"
+          },
+          "Name": "Buyers.Category"
+        },
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "m"
+              }
+            },
+            "Property": "Manager Name"
+          },
+          "Name": "Managers.Manager"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

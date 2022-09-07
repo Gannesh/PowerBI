@@ -1,0 +1,9 @@
+{
+  "name": "Sum Measure",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

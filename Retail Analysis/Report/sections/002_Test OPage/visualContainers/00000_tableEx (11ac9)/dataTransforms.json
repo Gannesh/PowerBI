@@ -1,0 +1,155 @@
+{
+  "projectionOrdering": {
+    "Values": [
+      0,
+      1,
+      2
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Buyer",
+        "Name": "Buyers.Buyer",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Category",
+        "Name": "Buyers.Category",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Manager Name",
+        "Name": "Managers.Manager",
+        "Type": 2048
+      }
+    ],
+    "Filters": [
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Buyers"
+              }
+            },
+            "Property": "Buyer"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Buyers"
+              }
+            },
+            "Property": "Category"
+          }
+        }
+      },
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Managers"
+              }
+            },
+            "Property": "Manager Name"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 1,
+          "isActive": false
+        },
+        {
+          "Name": "Values",
+          "Projection": 2,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Buyer",
+      "queryName": "Buyers.Buyer",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Buyers"
+            }
+          },
+          "Property": "Buyer"
+        }
+      }
+    },
+    {
+      "displayName": "Category",
+      "queryName": "Buyers.Category",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Buyers"
+            }
+          },
+          "Property": "Category"
+        }
+      }
+    },
+    {
+      "displayName": "Manager Name",
+      "queryName": "Managers.Manager",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "Managers"
+            }
+          },
+          "Property": "Manager Name"
+        }
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Manager",
+  "name": "Manager Name",
   "dataType": "string",
-  "sourceColumn": "Manager",
+  "sourceColumn": "Manager Name",
   "summarizeBy": "none",
   "annotations": [
     {

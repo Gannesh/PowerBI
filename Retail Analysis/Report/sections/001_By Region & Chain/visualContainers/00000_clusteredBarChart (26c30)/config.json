@@ -73,7 +73,7 @@
                 "Source": "m"
               }
             },
-            "Property": "Manager"
+            "Property": "Manager Name"
           },
           "Name": "Managers.Manager"
         },
