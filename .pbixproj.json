@@ -1,0 +1,29 @@
+{
+    "version": "0.1.0",
+    "deployments": {
+      "Reports": {
+        "mode": "Report",
+        "source": {
+          "type": "File",
+          "path": "./*.pbix$"
+        },
+        "authentication": {
+          "type": "ServicePrincipal",
+          "tenantId": "bda6ee55-0784-4f55-b492-0e5e798a08e6",
+          "clientId": "3004e060-c55c-462f-9406-f61b5a146c49",
+          "clientSecret": "PGu8Q~DJdtyavJMCke3yiA3TEwQJ_eEukebPicTd"
+        },
+        "options": {
+          "import": {
+            "nameConflict": "CreateOrOverwrite"
+          }
+        },
+        "environments": {
+          "PROD": {
+            "workspace": "Moyo - Power BI Repo",
+            "refresh": {}
+          }
+        }
+      }
+    }
+  }
